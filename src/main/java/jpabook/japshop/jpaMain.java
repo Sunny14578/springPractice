@@ -16,7 +16,7 @@ public class jpaMain {
 
         EntityTransaction tx = em.getTransaction();
         tx.begin();
-
+//ㅇㄹㄹㅇㄹ
         try{
             Order order = new Order();
             order.addOrderItem(new OrderItem());
